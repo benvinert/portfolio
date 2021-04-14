@@ -1,0 +1,61 @@
+.myNameIs {
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.8rem;
+  color: white;
+  grid-column: 1/3;
+  z-index: 2;
+}
+
+.WelcomeContainer.active {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  transition: 0.8s;
+  margin-left: 0%;
+}
+.divbuttonknow {
+  margin-top: 2rem;
+  margin-right: 10.5rem;
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+
+.WelcomeContainer {
+  margin-left: -200%;
+  transition: 0.8s;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.HeaderBackground {
+  background-image: url(HH.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+  width: 100%;
+}
+
+.typed-text {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .myNameIs {
+    font-size: 3.6rem;
+    color: white;
+    z-index: 2;
+  }
+  .HeaderBackground {
+    background-image: url(HH.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+  }
+}

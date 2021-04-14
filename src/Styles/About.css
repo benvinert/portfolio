@@ -1,0 +1,5 @@
+.AboutContainer {
+  z-index: 2;
+  background-color: rgb(214, 214, 214);
+  position: relative;
+}
