@@ -31,7 +31,7 @@
 }
 
 .HeaderBackground {
-  background-image: url(HH.webp);
+  background-image: url(Images/Header.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,12 +46,13 @@
 
 @media screen and (min-width: 600px) {
   .myNameIs {
+    margin-top: 5rem;
     font-size: 3.6rem;
     color: white;
     z-index: 2;
   }
   .HeaderBackground {
-    background-image: url(HH.webp);
+    background-image: url(Images/Header.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

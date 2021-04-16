@@ -12,13 +12,13 @@ ul {
 
 .Navbar {
   height: 60px;
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(78, 78, 78);
   z-index: 3;
   position: fixed;
 }
 
 .Navbar-labels {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: white;
   padding: 10px 10px 10px 10px;
   z-index: 3;
@@ -38,6 +38,8 @@ a:-webkit-any-link {
 .NavbarIcons {
   padding: 10px 10px 10px 10px;
   font-size: 1.6rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* //////////////// */

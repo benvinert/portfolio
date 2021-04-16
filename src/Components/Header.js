@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Typed from "react-typed";
 import "../Styles/Header.css";
 
-export const Header = () => {
+export const Header = ({ executeScroll, aboutRef }) => {
   const [hiddenClass, setHiddenClass] = useState({
     class: "WelcomeContainer",
   });
@@ -31,7 +31,11 @@ export const Header = () => {
             loop
           />
           <br />
-          <Button variant="outlined" color="secondary">
+          <Button
+            onClick={() => executeScroll(aboutRef)}
+            variant="outlined"
+            color="secondary"
+          >
             Know more
           </Button>
         </div>

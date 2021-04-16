@@ -1,7 +1,8 @@
 .projectsContainer {
   z-index: 2;
-  background-color: rgb(161, 149, 149);
+  background-color: rgb(93, 93, 93);
   position: relative;
+  padding: 10px 10px 10px 10px;
 }
 
 .ProjectBox {
